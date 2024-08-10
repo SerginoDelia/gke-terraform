@@ -80,3 +80,18 @@ spec:
     app: grafana
   sessionAffinity: None
   type: LoadBalancer
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: grafana-pv
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: standard-rwo
+  gcePersistentDisk:
+    pdName: grafana-disk
+    fsType: ext4
