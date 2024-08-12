@@ -1,5 +1,8 @@
 # GKE Terraform
-Deployment 
+Deployment: 
+
+update project ID
+Add credentials or run: gcloud auth login
 
 terraform init 
 terraform plan
