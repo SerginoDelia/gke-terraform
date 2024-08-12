@@ -27,9 +27,6 @@ kubectl get service -o wide
 grafana username: admin
 Grafana password: admin
 
-Prometheus Setup
-https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/config-other-methods/prometheus/prometheus-operator/
-
 Terraform Setup
 https://antonputra.com/google/create-gke-cluster-using-terraform/#create-gke-cluster-using-terraform
 
@@ -38,3 +35,9 @@ https://docs.google.com/document/d/1whVdpWic21cgoSkyMRdFnS72AZtlHPV8/edit?pli=1
 
 Self Hosted Grafana
 https://docs.google.com/document/d/1Bhf5o4lgJKNc3V1W72eeMnChGItycjzxT2G1YftoUBM/
+
+Prometheus Setup
+https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/config-other-methods/prometheus/remote-write-helm-operator/
+
+https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/configuration/config-other-methods/prometheus/prometheus-operator/
+
