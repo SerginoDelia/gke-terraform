@@ -16,3 +16,6 @@ resource "google_service_account_iam_member" "service-a" {
   role               = "roles/iam.workloadIdentityUser"
   member             = "serviceAccount:agwe-2.svc.id.goog[staging/service-a]"
 }
+
+# Import service account resource, because its aleady created
+# terraform import google_service_account.service-a projects/agwe-2/serviceAccounts/service-a@agwe-2.iam.gserviceaccount.com
