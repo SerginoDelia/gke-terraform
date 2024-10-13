@@ -1,7 +1,7 @@
 # https://www.terraform.io/language/settings/backends/gcs
 terraform {
   backend "gcs" {
-    bucket = "serge-kubernetes-app"
+    bucket = "agwe-kubernetes-bucket"
     prefix = "terraform/state"
   }
   required_providers {
@@ -13,7 +13,7 @@ terraform {
 }
 provider "google" {
   # Configuration options
-  project = "agwe-2"
+  project = "agwe-3"
   region  = "us-central1"
   # credentials = "key.json"
 }

@@ -29,7 +29,7 @@ resource "google_container_cluster" "primary" {
   }
 
   workload_identity_config {
-    workload_pool = "agwe-2.svc.id.goog"
+    workload_pool = "agwe-3.svc.id.goog"
   }
 
   ip_allocation_policy {
